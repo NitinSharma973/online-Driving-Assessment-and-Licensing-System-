@@ -1,0 +1,28 @@
+.home-page {
+  height: 100vh; /* Set height to cover the entire viewport */
+  background-image: url("C:\Users\ns703\Documents\drive.jpg"); /* Add background image */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  display: flex; /* Use flexbox to center content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.cover {
+  background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent overlay */
+  padding: 50px; /* Add padding for content */
+  border-radius: 20px; /* Add border radius for container */
+}
+
+/* Customize button style */
+.Button-root {
+  border-radius: 25px; /* Add border radius */
+}
+
+.Button-containedPrimary {
+  background-color: #007bff; /* Change button background color */
+}
+
+.Button-containedPrimary:hover {
+  background-color: #0056b3; /* Change button background color on hover */
+}
